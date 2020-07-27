@@ -29,8 +29,6 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
       if($(window).scrollTop() == 0) {
-       $('.panel_bg').show();
-      } else {
        $('.panel_bg').hide();
       }
      });
