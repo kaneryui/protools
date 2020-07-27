@@ -28,10 +28,9 @@ $(document).ready(function(){
     
 
     $(window).scroll(function () {
-      if($(window).scrollTop() == 0) {
-       $('.panel_bg').hide();
-      }
-     });
-
+            if ($(this).scrollTop() > 100) {
+                $('.panel_bg').fadeOut();
+            }
+        });
 
 });
